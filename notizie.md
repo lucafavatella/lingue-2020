@@ -18,7 +18,7 @@
 Nota: [RTS Un è diffuso in Valle d'Aosta](https://it.wikipedia.org/w/index.php?title=RTS_1&oldid=111251362#Diffusione).
 
 [France 2](https://www.france.tv/france-2/).
-Note: [Diffuso in Valle d'Aosta](https://it.wikipedia.org/w/index.php?title=France_2&oldid=112821495#Ricezione_in_Italia).
+Nota: [Diffuso in Valle d'Aosta](https://it.wikipedia.org/w/index.php?title=France_2&oldid=112821495#Ricezione_in_Italia).
 
 [Tv5 Monde](https://www.tv5monde.com).
 Nota: [Diffuso in Valle d'Aosta](https://it.wikipedia.org/w/index.php?title=Valle_d%27Aosta&oldid=113011082#Televisioni_e_radio).
