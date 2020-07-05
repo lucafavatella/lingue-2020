@@ -14,7 +14,8 @@
 ## Lingua francese
 
 [Radio Télévision Suisse](https://www.rts.ch):
-[telegiornale](https://www.rts.ch/play/tv/categories/info).
+[telegiornale](https://www.rts.ch/play/tv/categories/info)
+(che puoi rallentare dal pannello JavaScript: `document.getElementsByTagName("video")[0].playbackRate=0.9`).
 Nota: [RTS Un è diffuso in Valle d'Aosta](https://it.wikipedia.org/w/index.php?title=RTS_1&oldid=111251362#Diffusione).
 
 [France 2](https://www.france.tv/france-2/).
