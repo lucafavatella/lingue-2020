@@ -19,7 +19,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/cltk/cltk.git@${CLTK_GIT_VSN:?}#egg=cltk
           pip install pyyaml
-          curl -fsSLO https://raw.githubusercontent.com/cltk/cltk/${CLTK_GIT_VSN:?}/scripts/download_all_models.py | python
+          curl -fsSLO https://raw.githubusercontent.com/cltk/cltk/${CLTK_GIT_VSN:?}/scripts/download_all_models.py
+          python download_all_models.py
       - run: |
           source ./bin/activate
           python -m doctest -fv $(find . -type f -name '*.rst')
