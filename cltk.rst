@@ -31,9 +31,9 @@ False
 >>> cltk_doc.words[4].lemma
 'disciplina'
 >>> cltk_doc.words[4].pos
-'NOUN'
+noun
 >>> cltk_doc.words[4].xpos
-'A1|grn1|casO|gen2'
+'C1|grn1|casO|gen3'
 >>> cltk_doc.words[4].governor
 8
 >>> cltk_doc.words[8].string
