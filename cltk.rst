@@ -5,7 +5,14 @@ per l'elaborazione del linguaggio naturale.
 
 >>> from cltk import NLP
 
-Fornisce un esempio di `avvio rapido <https://dev.cltk.org/en/latest/quickstart.html>`_.
+Supporta le seguenti lingue.
+
+>>> from cltk.nlp import iso_to_pipeline
+>>> list(iso_to_pipeline.keys())
+['akk', 'ang', 'arb', 'arc', 'chu', 'cop', 'enm', 'frm', 'fro', 'gmh', 'got', 'grc', 'hin', 'lat', 'lzh', 'non', 'pan', 'pli', 'san']
+
+Fornisce un esempio di `avvio rapido <https://dev.cltk.org/en/latest/quickstart.html>`_,
+previo scaricamento dei modelli.
 
 >>> vitruvius = "Architecti est scientia pluribus disciplinis et variis eruditionibus ornata, quae ab ceteris artibus perficiuntur. Opera ea nascitur et fabrica et ratiocinatione."
 >>> cltk_nlp = NLP(language="lat")
