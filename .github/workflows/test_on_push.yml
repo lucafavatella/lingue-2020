@@ -11,12 +11,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - run: |
+      - env:
+          CLTK_GIT_VSN: 1.0.0b6
+        run: |
           python -m venv .
           source ./bin/activate
           python -m pip install --upgrade pip
-          pip install git+https://github.com/cltk/cltk.git@1.0.0b6#egg=cltk
+          pip install git+https://github.com/cltk/cltk.git@${CLTK_GIT_VSN:?}#egg=cltk
           pip install pyyaml
+          curl -fsSLO https://raw.githubusercontent.com/cltk/cltk/${CLTK_GIT_VSN:?}/scripts/download_all_models.py
           python scripts/download_all_models.py
       - run: |
           source ./bin/activate
